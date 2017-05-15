@@ -1,0 +1,1 @@
+"'ryanoasis/vim-devicons'
