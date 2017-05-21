@@ -1,1 +1,1 @@
-let g:exclude = ["vimfiler"]
+let g:exclude = ["nerdtree.vim", "vim-nerdtree-git"]
