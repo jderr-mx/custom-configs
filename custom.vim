@@ -48,3 +48,13 @@ augroup CursorLine
     au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
     au WinLeave * setlocal nocursorline
 augroup END
+let g:syntastic_javascript_checkers = ['eslint']  " sets jshint as our javascript linter
+let g:ale_linters = {
+            \ 'javascript': ['eslint']
+            \}
+let g:ale_fixers = {
+    \ 'javascript': ['eslint']
+    \}
+nmap <Leader>d <Plug>(ale_fix)
+set guicursor=
+let g:deoplete#enable_at_startup = 1

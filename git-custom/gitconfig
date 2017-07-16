@@ -11,6 +11,6 @@
     untracked = yellow
 [user]
     name = John Derr
-    email = john.derr@gmail.com
+    email = john.derr@caresource.com
 [push]
     default = matching
