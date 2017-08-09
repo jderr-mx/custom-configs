@@ -21,7 +21,6 @@ endif
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 let g:webdevicons_enable_unite = 1
-let g:syntastic_javascript_checkers = ['eslint']  " sets jshint as our javascript linter
 " you can add these colors to your .vimrc to help customizing
 let s:brown = "905532"
 let s:aqua =  "3AFFDB"
@@ -50,11 +49,12 @@ augroup CursorLine
 augroup END
 let g:syntastic_javascript_checkers = ['eslint']  " sets jshint as our javascript linter
 let g:ale_linters = {
-            \ 'javascript': ['eslint']
+            \ 'javascript': ['eslint'],
+            \ 'coffeescript': ['coffeelint']
             \}
 let g:ale_fixers = {
     \ 'javascript': ['eslint']
     \}
 nmap <Leader>d <Plug>(ale_fix)
 set guicursor=
-let g:deoplete#enable_at_startup = 1
+"let g:deoplete#enable_at_startup = 1
