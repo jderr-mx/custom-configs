@@ -14,3 +14,5 @@
     email = john.derr@caresource.com
 [push]
     default = matching
+[alias]
+    hist = log --all --decorate --oneline --graph

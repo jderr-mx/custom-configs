@@ -47,15 +47,15 @@ augroup CursorLine
     au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
     au WinLeave * setlocal nocursorline
 augroup END
-let g:syntastic_javascript_checkers = ['eslint']  " sets jshint as our javascript linter
+"let g:syntastic_javascript_checkers = ['eslint']  " sets jshint as our javascript linter
+let g:ale_completion_enabled=0
+let g:ale_sign_column_always=1
 let g:ale_linters = {
             \ 'javascript': ['eslint'],
             \ 'coffeescript': ['coffeelint'],
-            \ 'handlebars' : ['ember-template-lint']
             \}
 let g:ale_fixers = {
     \ 'javascript': ['eslint'],
-    \ 'handlebars': ['ember-template-lint']
     \}
 nmap <Leader>d <Plug>(ale_fix)
 set guicursor=
@@ -63,4 +63,4 @@ set guicursor=
 setlocal tabstop=2
 setlocal softtabstop=2
 setlocal shiftwidth=2
-
+"set nofoldenable
