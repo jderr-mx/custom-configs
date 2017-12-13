@@ -20,7 +20,7 @@ endif
 
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-let g:webdevicons_enable_unite = 1
+"let g:webdevicons_enable_unite = 1
 " you can add these colors to your .vimrc to help customizing
 let s:brown = "905532"
 let s:aqua =  "3AFFDB"
@@ -63,4 +63,4 @@ set guicursor=
 setlocal tabstop=2
 setlocal softtabstop=2
 setlocal shiftwidth=2
-"set nofoldenable
+set nofoldenable
