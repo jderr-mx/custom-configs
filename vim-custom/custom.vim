@@ -55,8 +55,10 @@ let g:ale_linters = {
             \ 'coffeescript': ['coffeelint'],
             \}
 let g:ale_fixers = {
-    \ 'javascript': ['eslint'],
+    \ 'javascript': ['prettier'],
     \}
+let g:ale_fix_on_save = 1
+let g:ale_javascript_prettier_options = '--single-quote --print-width 120 --tab-width 4'
 nmap <Leader>d <Plug>(ale_fix)
 set guicursor=
 "let g:deoplete#enable_at_startup = 1
