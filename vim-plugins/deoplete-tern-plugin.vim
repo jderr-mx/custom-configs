@@ -1,0 +1,1 @@
+"'carlitux/deoplete-ternjs'

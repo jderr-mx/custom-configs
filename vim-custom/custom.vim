@@ -61,7 +61,9 @@ let g:ale_fix_on_save = 1
 let g:ale_javascript_prettier_options = '--single-quote --print-width 120 --tab-width 2'
 nmap <Leader>d <Plug>(ale_fix)
 set guicursor=
-"let g:deoplete#enable_at_startup = 1
+let g:enable_ycm_at_startup = 0
+let g:deoplete#enable_at_startup = 1
+let g:plug_url_format = 'git@github.com:jderr-mx/%s.git'
 setlocal tabstop=2
 setlocal softtabstop=2
 setlocal shiftwidth=2
