@@ -1,1 +1,0 @@
-"'Xuyuanp/nerdtree-git-plugin'
