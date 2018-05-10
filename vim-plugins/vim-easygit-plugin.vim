@@ -1,0 +1,1 @@
+"'chemzqm/vim-easygit'
