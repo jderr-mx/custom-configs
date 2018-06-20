@@ -40,6 +40,8 @@ let s:rspec_red = 'FE405F'
 let s:git_orange = 'F54D27'
 
 :hi CursorLine   cterm=NONE ctermbg=52 guibg=#5f0000
+:hi! Normal ctermbg=NONE guibg=NONE
+
 augroup CursorLine
     au!
     au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
