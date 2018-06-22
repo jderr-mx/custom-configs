@@ -11,3 +11,5 @@ let g:deoplete#enable_at_startup = 1
 let g:plug_url_format = 'git@github.com:jderr-mx/%s.git'
 let g:easygit_enable_command = 1
 
+:hi! Normal ctermbg=NONE guibg=NONE
+:hi CursorLine cterm=NONE ctermbg=52 guibg=#5f0000
