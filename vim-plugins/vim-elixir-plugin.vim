@@ -1,0 +1,1 @@
+"'elixir-editors/vim-elixir'

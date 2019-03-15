@@ -7,7 +7,7 @@ let g:ale_linters = {
 let g:ale_fixers = {
     \ 'javascript': ['prettier'],
     \}
-let g:ale_fix_on_save = 1
+let g:ale_fix_on_save = 0
 let g:ale_javascript_prettier_options = '--single-quote --print-width 120 --tab-width 2'
 nmap <Leader>d <Plug>(ale_fix)
 
