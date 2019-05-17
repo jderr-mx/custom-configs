@@ -7,7 +7,6 @@ setlocal softtabstop=2
 setlocal shiftwidth=2
 set nofoldenable
 
-"let g:deoplete#enable_at_startup = 1
 let g:plug_url_format = 'git@github.com:jderr-mx/%s.git'
 let g:easygit_enable_command = 1
 

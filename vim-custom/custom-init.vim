@@ -1,1 +1,1 @@
-let g:exclude = ["syntastic.vim", "neocomplete.vim", "deoplete.vim"]
+let g:exclude = ["nerdtree.vim", "syntastic.vim", "neocomplete.vim"]
