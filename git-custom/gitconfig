@@ -11,7 +11,7 @@
     untracked = yellow
 [user]
     name = John Derr
-    email = john.derr@maximos.io
+    email = john@allovue.com
 [push]
     default = matching
 [alias]

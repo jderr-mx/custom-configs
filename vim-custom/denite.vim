@@ -8,6 +8,7 @@ nnoremap <Leader>gc :Denite -mode=normal gitchanged<CR>
 nnoremap <Leader>gl :Denite -mode=normal gitlog<CR>
 nnoremap <Leader>gs :Denite -mode=normal gitstatus<CR>
 
+
 "inoremap 9<Tab> <C-R>=(pumvisible()? "\<LT>C-E>":"")<CR><C-R>=UltiSnipsCallUnite()<CR>
 "nnoremap 9<Tab> a<C-R>=(pumvisible()? "\<LT>C-E>":"")<CR><C-R>=UltiSnipsCallUnite()<CR>
 let g:UltiSnipsExpandTrigger="9<tab>"
