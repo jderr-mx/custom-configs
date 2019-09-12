@@ -6,6 +6,7 @@ if !exists('g:airline_symbols')
 endif
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'molokai'
+let g:airline#extensions#coc#enabled = 1
 " unicode symbols
 "let g:airline_left_sep = ''
 "let g:airline_left_sep = '▶'
