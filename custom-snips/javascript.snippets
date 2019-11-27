@@ -1,21 +1,12 @@
-snippet ember-const "Standard const for ember destructuring"
-const {
-  $0
-} = Ember;
-endsnippet
-snippet ds-const "Standard const for ember-data destructuring"
-const {
-  Model,
-  attr
-} = DS;
+snippet inject-service "import service"
+import { inject as service } from '@ember/service';
 endsnippet
 
-snippet react-stateless "Stub out a react stateless component"
-import React from 'react';
+snippet ember-concurrency-import-task "Import ember-concurrency"
+import { task } from 'ember-concurrency';
+endsnippet
 
-const $0 = () => {
-
-}
-
-export default $0
+snippet ember-concurrency-task "ember-concurrency task"
+$0: task(function*() {
+}),
 endsnippet
