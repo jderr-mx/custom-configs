@@ -1,21 +1,17 @@
-snippet ember-const "Standard const for ember destructuring"
-const {
-  $0
-} = Ember;
-endsnippet
-snippet ds-const "Standard const for ember-data destructuring"
-const {
-  Model,
-  attr
-} = DS;
+snippet import-ember-object "Import from @ember/object"
+import { $0 } from '@ember/object'
 endsnippet
 
-snippet react-stateless "Stub out a react stateless component"
-import React from 'react';
+snippet import-ember-computed "Import from @ember/object/computed"
+import { $0 } from '@ember/object/computed'
+endsnippet
 
-const $0 = () => {
+snippet import-ember-service "Import from @ember/service"
+import { inject as service } from '@ember/service'
+endsnippet
+
+snippet ember-component-class "Class based component"
+export default class $0 extends Component {
 
 }
-
-export default $0
 endsnippet
