@@ -10,3 +10,5 @@ alias urlencode='python -c "import sys, urllib as ul; \
 alias migrate-dev="rake db:migrate RAILS_ENV=development"
 alias rails-serve="USE_MAILCATCHER=1 rails s"
 alias run-spec="bundle exec rspec --t \~elasticsearch"
+alias ember-exam="ember exam --split=2 --parallel"
+alias npm-lazy="npm_lazy --config /Users/john/npm_lazy.config.js"

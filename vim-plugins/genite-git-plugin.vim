@@ -1,1 +1,0 @@
-"'chemzqm/denite-git'

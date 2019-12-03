@@ -14,3 +14,4 @@ let g:easygit_enable_command = 1
 :hi CursorLine cterm=NONE ctermbg=52 guibg=#5f0000
 
 :autocmd OptionSet guicursor noautocmd set guicursor=
+set rtp+=/usr/local/opt/fzf
