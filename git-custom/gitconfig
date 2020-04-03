@@ -18,3 +18,5 @@
     hist = log --all --decorate --oneline --graph
     co = checkout
     staged = diff --name-only --cached
+[core]
+	excludesfile = /Users/john/.gitignore_global
