@@ -11,8 +11,12 @@
     untracked = yellow
 [user]
     name = John Derr
-    email = john.derr@maximos.io
+    email = john@allovue.com
 [push]
     default = matching
 [alias]
     hist = log --all --decorate --oneline --graph
+    co = checkout
+    staged = diff --name-only --cached
+[core]
+	excludesfile = /Users/john/.gitignore_global

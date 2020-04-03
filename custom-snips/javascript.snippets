@@ -1,3 +1,15 @@
+snippet inject-service "import service"
+import { inject as service } from '@ember/service';
+endsnippet
+
+snippet ember-concurrency-import-task "Import ember-concurrency"
+import { task } from 'ember-concurrency';
+endsnippet
+
+snippet ember-concurrency-task "ember-concurrency task"
+$0: task(function*() {
+}),
+
 snippet import-ember-object "Import from @ember/object"
 import { $0 } from '@ember/object'
 endsnippet
