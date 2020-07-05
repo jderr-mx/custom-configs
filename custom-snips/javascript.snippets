@@ -9,4 +9,21 @@ endsnippet
 snippet ember-concurrency-task "ember-concurrency task"
 $0: task(function*() {
 }),
+
+snippet import-ember-object "Import from @ember/object"
+import { $0 } from '@ember/object'
+endsnippet
+
+snippet import-ember-computed "Import from @ember/object/computed"
+import { $0 } from '@ember/object/computed'
+endsnippet
+
+snippet import-ember-service "Import from @ember/service"
+import { inject as service } from '@ember/service'
+endsnippet
+
+snippet ember-component-class "Class based component"
+export default class $0 extends Component {
+
+}
 endsnippet
