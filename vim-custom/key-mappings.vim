@@ -1,5 +1,5 @@
-nnoremap <Tab> :bnext<CR>
-nnoremap <S-Tab> :bprev<CR>
+" nnoremap <Tab> :bnext<CR>
+" nnoremap <S-Tab> :bprev<CR>
 nnoremap <Leader>bd :BD<CR>
 
 map <Leader>t :call RunCurrentSpecFile()<CR>
