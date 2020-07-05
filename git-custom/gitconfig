@@ -11,7 +11,7 @@
     untracked = yellow
 [user]
     name = John Derr
-    email = john@allovue.com
+    email = john.derr@maximos.io
 [push]
     default = matching
 [alias]
@@ -20,3 +20,5 @@
     staged = diff --name-only --cached
 [core]
 	excludesfile = /Users/john/.gitignore_global
+[merge]
+    tool = vimdiff
