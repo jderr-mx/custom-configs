@@ -1,6 +1,6 @@
 alias npm-lazy="npm_lazy --config /Users/john/npm_lazy.config.js"
-alias pg_start="launchctl load /usr/local/opt/postgresql@11/homebrew.mxcl.postgresql.plist"
-alias pg_stop="launchctl unload /usr/local/opt/postgresql@11/homebrew.mxcl.postgresql.plist"
+alias pg_start="launchctl load /usr/local/opt/postgres/homebrew.mxcl.postgresql.plist"
+alias pg_stop="launchctl unload /usr/local/opt/postgres/homebrew.mxcl.postgresql.plist"
 alias git-dev="git checkout development"
 alias urldecode='python -c "import sys, urllib as ul; \
     print ul.unquote_plus(sys.argv[1])"'
@@ -22,3 +22,4 @@ alias gen-i18n="rake i18n_tasks:generate_i18n_json"
 
 alias phx-serve="source .env && iex -S mix phx.server"
 alias phx-deps="mix deps.get && mix ecto.migrate"
+alias python=/usr/local/bin/python3
