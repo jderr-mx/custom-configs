@@ -19,6 +19,6 @@
     co = checkout
     staged = diff --name-only --cached
 [core]
-	excludesfile = /Users/john/.gitignore
-[url "git@github.com:"]
-	insteadOf = https://github.com/
+	excludesfile = /Users/john/.gitignore_global
+[merge]
+    tool = vimdiff
