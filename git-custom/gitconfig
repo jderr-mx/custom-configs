@@ -10,8 +10,8 @@
     deleted = red
     untracked = yellow
 [user]
-    name = John Derr
-    email = john.derr@maximos.io
+	name = John Derr
+	email = john.derr@maximos.io
 [push]
     default = matching
 [alias]

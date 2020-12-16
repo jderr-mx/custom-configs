@@ -1,1 +1,0 @@
-"'preservim/nerdtree'
