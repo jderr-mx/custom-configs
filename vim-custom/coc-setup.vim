@@ -1,4 +1,4 @@
-let g:coc_node_path = '/Users/john/.fnm/node-versions/v10.17.0/installation/bin/node'
+let g:coc_node_path = '/Users/john/.fnm/node-versions/v14.15.2/installation/bin/node'
 
 " Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
 inoremap <silent><expr> <TAB>
@@ -41,3 +41,4 @@ function! s:check_back_space() abort
 endfunction
 
 let g:coc_snippet_next = '<tab>'
+nmap <silent> gd <Plug>(coc-definition)

@@ -10,15 +10,18 @@
     deleted = red
     untracked = yellow
 [user]
-	name = John Derr
-	email = john.derr@maximos.io
+    name = John Derr
+    email = john@allovue.com
+    username = jderr-mx
 [push]
-    default = matching
+	default = current
 [alias]
     hist = log --all --decorate --oneline --graph
     co = checkout
     staged = diff --name-only --cached
 [core]
-	excludesfile = /Users/john/.gitignore_global
+    excludesfile = /Users/john/.gitignore_global
 [merge]
     tool = vimdiff
+[pull]
+	rebase = false

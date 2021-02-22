@@ -23,3 +23,4 @@ command! BD call fzf#run(fzf#wrap({
 \ }))
 
 command! -bang -nargs=* Ag call fzf#vim#ag(<q-args>, '--workers=1', {'options': '--no-sort'}, <bang>0)
+let g:fzf_layout = { 'down': '40%' }
