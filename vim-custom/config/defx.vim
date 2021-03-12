@@ -1,6 +1,6 @@
 call defx#custom#option('_', {
       \ 'columns': 'indent:icons:filename:mark:git',
-      \ 'winwidth': 50,
+      \ 'winwidth': 40,
       \ 'split': 'vertical',
       \ 'direction': 'topleft',
       \ 'show_ignored_files': 0,

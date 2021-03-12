@@ -10,8 +10,8 @@
     deleted = red
     untracked = yellow
 [user]
-    name = John Derr
-    email = john@allovue.com
+	name = John Derr
+	email = john@allovue.com
     username = jderr-mx
 [push]
 	default = current
